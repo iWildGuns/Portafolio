@@ -19,7 +19,7 @@ export default function Header() {
               <span className="block text-blue-400">Rodríguez</span>
             </h1>
             <p className="mt-3 text-lg sm:text-xl md:text-2xl font-semibold text-indigo-200">
-              FullStack Develop Trainee
+              &#123; FullStack Develop Trainee &#125;
             </p>
             <p className="mt-1 text-base sm:text-lg md:text-xl text-indigo-300">
               Portafolio
