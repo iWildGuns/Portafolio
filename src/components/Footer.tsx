@@ -41,7 +41,7 @@ const Footer = () => {
                 mail: <span>hrdr1995@gmail.com</span>
               </p>
               <p>
-                tfl. movil: <span>+54 11 2506 5257</span>
+                tlf. movil: <span>+54 11 2506 5257</span>
               </p>
             </div>
           </div>
