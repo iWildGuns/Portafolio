@@ -21,37 +21,37 @@ export const skills: Skill[] = [
   },
   {
     name: "HTML",
-    level: "Avanzado",
+    level: "Intermedio",
     image:
       "https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg",
   },
   {
     name: "CSS",
-    level: "Avanzado",
+    level: "Basico",
     image:
       "https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg",
   },
   {
     name: "Tailwind CSS",
-    level: "Avanzado",
+    level: "Basico",
     image:
       "https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original.svg",
   },
   {
     name: "Git",
-    level: "Avanzado",
+    level: "Basico",
     image:
       "https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg",
   },
   {
     name: "Node.js",
-    level: "Intermedio",
+    level: "Basico",
     image:
       "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg",
   },
   {
     name: "Express.js",
-    level: "Intermedio",
+    level: "Basico",
     image:
       "https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg",
   },
