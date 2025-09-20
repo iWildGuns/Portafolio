@@ -4,8 +4,8 @@ import type { Project } from "../types";
 
 export default function Proyectos() {
   return (
-    <div className="max-w-4xl mx-auto">
-      <h1 className="text-4xl font-bold text-white mb-8">
+    <div className="max-w-4xl sm:my-auto mx-auto mt-5">
+      <h1 className="text-3xl sm:text-4xl font-bold text-white mb-8">
         Proyectos del curso <span> ReactJs</span>
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -28,7 +28,7 @@ export default function Proyectos() {
                 href={project.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className=" bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition-colors"
+                className=" bg-gray-500 text-white px-4 py-2 rounded hover:bg-gray-600 transition-colors"
               >
                 Ver Proyecto
               </a>
