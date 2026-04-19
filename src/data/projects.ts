@@ -29,4 +29,9 @@ export const projects: Project[] = [
     url: "https://icaloriestracker.netlify.app",
   },
   { num: "7", name: "Store", url: "https://igunstore.netlify.app" },
+  {
+    num: "8",
+    name: "Cocteles con Ia",
+    url: "https://reactdrink.netlify.app/",
+  },
 ];
