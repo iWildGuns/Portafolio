@@ -6,10 +6,11 @@ export type Project = {
   num: string;
   name: string;
   url: string;
+  description: string;
 };
 
 export type Skill = {
   name: string;
-  level: string;
+  category: string;
   image: string;
 };

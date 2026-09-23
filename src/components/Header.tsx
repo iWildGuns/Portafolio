@@ -1,22 +1,29 @@
 //
 
+import { motion } from "framer-motion";
+
 export default function Header() {
   return (
     <div
       style={{ height: "50vh" }}
       className="py-10 relative min-h-[50vh] flex flex-col items-center justify-center bg-gradient-to-br from-gray-800 to-gray-900 text-white "
     >
-      <div className="relative flex flex-col items-start px-4 sm:px-6 lg:px-8 ">
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8 }}
+        className="relative flex flex-col items-start px-4 sm:px-6 lg:px-8 "
+      >
         <div className="flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-4 md:gap-6 lg:gap-8 mb-4 w-full">
           <img
             src="../Perfil.jpg"
             alt="Perfil"
             className="w-40 h-40 sm:w-50 sm:h-50 rounded-full border-4 border-white shadow-lg object-cover"
           />
-          <div>
+          <div className="text-center sm:text-left">
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-4">
               <span className="block">Héctor Díaz Rafael</span>
-              <span className="block text-blue-400">Rodríguez</span>
+              <span className="block text-indigo-400">Rodríguez</span>
             </h1>
             <p className="mt-3 text-lg sm:text-xl md:text-2xl font-semibold text-gray-200">
               &#123; Full-Stack Developer Junior &#125;
@@ -26,7 +33,7 @@ export default function Header() {
             </p>
           </div>
         </div>
-      </div>
+      </motion.div>
     </div>
   );
 }

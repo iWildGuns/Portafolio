@@ -12,7 +12,7 @@ const Footer = () => {
                 href="https://www.linkedin.com/in/hector-rafael-diaz-rodriguez-685033263/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-2xl hover:text-blue-400 transition-colors"
+                className="text-2xl hover:text-indigo-400 transition-colors"
               >
                 <FaLinkedin />
               </a>
@@ -36,13 +36,13 @@ const Footer = () => {
           </div>
           <div className="mb-4 md:mb-0 ">
             <h3 className="text-xl font-semibold mb-2 ">Contactos</h3>
-            <div>
-              <p>
-                mail: <span>hrdr1995@gmail.com</span>
-              </p>
-              <p>
-                tlf. movil: <span>+54 11 2506 5257</span>
-              </p>
+            <div className="flex flex-col gap-2">
+              <div className="bg-white/5 border border-white/10 px-3 py-1 rounded-full text-sm flex items-center gap-2">
+                <span className="text-indigo-400 font-bold">mail:</span> <span>hrdr1995@gmail.com</span>
+              </div>
+              <div className="bg-white/5 border border-white/10 px-3 py-1 rounded-full text-sm flex items-center gap-2">
+                <span className="text-indigo-400 font-bold">tlf. movil:</span> <span>+54 11 2506 5257</span>
+              </div>
             </div>
           </div>
         </div>
