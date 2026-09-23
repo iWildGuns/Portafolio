@@ -14,16 +14,31 @@ export default function About() {
           <div className="flex-1 text-center md:text-left">
             <h2 className="text-3xl font-bold text-white mb-4">Sobre Mí</h2>
             <p className="text-gray-300 text-lg leading-relaxed">
-              Hola, soy <span className="text-indigo-400 font-semibold">Héctor Díaz Rafael Rodríguez</span>,
-              un desarrollador apasionado por el ecosistema <span className="text-indigo-400 font-semibold">Backend</span>.
-              Me especializo en la creación de arquitecturas robustas utilizando <span className="text-indigo-400 font-semibold">Node.js y JavaScript</span>,
-              con un fuerte enfoque en el diseño de <span className="text-indigo-400 font-semibold">APIs REST</span> eficientes y la gestión optimizada de
-              <span className="text-indigo-400 font-semibold">bases de datos</span> relacionales y no relacionales.
+              Hola, soy{" "}
+              <span className="text-indigo-400 font-semibold">
+                Héctor Díaz Rafael Rodríguez
+              </span>
+              , un desarrollador apasionado por el ecosistema{" "}
+              <span className="text-indigo-400 font-semibold">Backend</span>. Me
+              especializo en la creación de arquitecturas robustas utilizando{" "}
+              <span className="text-indigo-400 font-semibold">
+                Node.js y JavaScript
+              </span>
+              , con un fuerte enfoque en el diseño de{" "}
+              <span className="text-indigo-400 font-semibold">APIs REST</span>{" "}
+              eficientes y la gestión optimizada de
+              <span className="text-indigo-400 font-semibold">
+                {" "}
+                bases de datos
+              </span>{" "}
+              relacionales y no relacionales.
             </p>
             <p className="mt-4 text-gray-300 text-lg leading-relaxed">
-              Mi objetivo es escribir código limpio, escalable y mantenible, siempre buscando resolver problemas complejos
-              con soluciones elegantes. Me encuentro en constante aprendizaje, explorando nuevas tecnologías para
-              seguir aportando valor en cada proyecto que emprendo.
+              Mi objetivo es escribir código limpio, escalable y mantenible,
+              siempre buscando resolver problemas complejos con soluciones
+              elegantes. Me encuentro en constante aprendizaje, explorando
+              nuevas tecnologías para seguir aportando valor en cada proyecto
+              que emprendo.
             </p>
           </div>
         </div>
